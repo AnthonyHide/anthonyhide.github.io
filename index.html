@@ -1,3 +1,51 @@
-<h1>Hello</h1>
-<img src="http://webneel.com/sites/default/files/images/project/Vector%20illustrations%20w%20(2).forblog.jpg"/>
-<img src="http://webneel.com/sites/default/files/images/project/Vector%20illustrations%20w%20(2).forblog.jpg" alt="Smiley face" height="42" width="42">
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">	
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <title>jQuery & CSS3 МЕНЮ АККОРДЕОН</title>
+    <meta name="description" content="Живой пример работы замечательного меню в стиле аккордеон с помощью CSS3 и jQuery" />
+    <meta name="author" content="Dbmast.ru" />
+    <!-- styles post -->
+	  <link href="css/main-menu.css" rel="stylesheet">
+     <!-- icons menu -->                                                
+      <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- container menu -->
+<ul id="menu">
+<ul>
+   <li><a href="#"><i class="fa fa-home fa-fw"></i>&nbsp;<span>Главная</span></a></li>
+   <li class="active has-sub"><a href="#"><i class="fa fa-sitemap"></i>&nbsp; <span>Категории</span></a>
+      <ul>
+         <li class="has-sub"><a href="#"><span>Категория 1</span></a>
+            <ul>
+               <li><a href="#"><span>Подкатегория 1</span></a></li>
+               <li><a href="#"><span>Подкатегория 2</span></a></li>
+               <li class="last"><a href="#"><span>Подкатегория 3</span></a></li> 
+            </ul>
+         </li>
+         <li class="has-sub"><a href="#"><span>Категория 2</span></a>
+            <ul>
+               <li><a href="#"><span>Подкатегория 1</span></a></li>
+               <li class="last"><a href="#"><span>Подкатегория 2</span></a></li>
+            </ul>
+         </li>
+      </ul>
+   </li>
+   <li><a href="#"><i class="fa fa-life-ring"></i>&nbsp; <span>О Сайте</span></a></li>
+   <li class="last"><a href="#"><i class="fa fa-envelope"></i>&nbsp; <span>
+       Контакты</span></a></li>
+</ul>
+</ul>
+&nbsp;                                                         
+<p style="text-align:center;">сделано с любовью: <a href="https://twitter.com/#!/dobrovoi" style="text-decoration: none;">@dobrovoi</a>:)</p>
+
+   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="js/script.js"></script>
+  </body>
+</html>
